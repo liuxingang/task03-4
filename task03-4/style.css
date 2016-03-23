@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-size: 14px;
+}
+
+/*头部*/
+.header {
+    background: #19943c;
+    height: 70px;
+    min-width: 800px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1010px;
+    text-align: center;
+}
+
+.header h1 {
+    color: #fcfff6;
+    height: 70px;
+    line-height: 70px;
+    font-size: 35px;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 30px;
+    box-shadow: 0 0 60px #fcfff6;
+}
+
+.header p {
+    color: #e0e0e0;
+}
+
+/*中间样式*/
+.article {
+    background: #ffffff;
+    height: 780px;
+    overflow: hidden;
+    min-width: 800px;
+}
+
+/*左边列表样式*/
+.left {
+    float: left;
+    width: 80px;
+    height: 18px;
+    margin-left: -100%;
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+    text-align: center;
+    background: #e0e0e0;
+}
+
+.left h2 {
+    border-bottom: double;
+    color: #ffffff;
+    line-height: 30px;
+    height: 30px;
+    background: darkorange;
+}
+
+.left ul {
+    list-style: none;
+}
+
+.left li {
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.left a {
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    height: 70px;
+    line-height: 70px;
+    color: #242424;
+
+}
+
+.left p {
+    margin-top: 10px;
+}
+
+.left a:hover {
+    background: #19943c;
+    color: #ffffff;
+}
+
+/*中间内容样式*/
+.middle {
+    float: left;
+    width: 100%;
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+
+}
+
+/*右边列表样式*/
+.right {
+    float: left;
+    width: 80px;
+    height: 18px;
+    margin-left: -80px;
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+    text-align: center;
+    background: #e0e0e0;
+}
+
+.right h2 {
+    border-bottom: double;
+    color: #ffffff;
+    line-height: 30px;
+    height: 30px;
+    background: darkorange;
+}
+
+.right ul {
+    list-style: none;
+}
+
+.right li {
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.right a {
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    height: 70px;
+    line-height: 70px;
+    color: #242424;
+}
+
+.right p {
+    margin-top: 10px;
+}
+
+.right a:hover {
+    background: #19943c;
+    color: #ffffff;
+}
+
+/*实现双飞翼布局*/
+.inner {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+    text-align: left;
+}
+
+.inner p {
+    padding: 10px 20px 0;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+/*底部*/
+.footer {
+    background: grey;
+    width: 100%;
+    height: 50px;
+}
+
+.footer p {
+    font-size: 24px;
+    line-height: 50px;
+    color: #ffffff;
+}
